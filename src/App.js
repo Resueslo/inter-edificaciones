@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+
+import AppRoutes from './routes';
 
 function App() {
   return (
     <div className="App">
-      <p>Empezando...</p>
+      <AppRoutes />
     </div>
   );
 }
+
+
 
 export default App;
